@@ -1,1 +1,1 @@
-# SMS
+A complete Student Management System built using C#, JavaScript, HTML, and CSS. This application helps in managing student records efficiently, including adding, updating, viewing, and deleting student details.
