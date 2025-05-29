@@ -9,7 +9,7 @@ const port = 4000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://hemantsonihs2004:wgZlQZXLtHqkwKbY@backenddb.zye6j2j.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backenddb', {
+mongoose.connect('mongodb+srv://hemantsonihs2004:<password>@backenddb.zye6j2j.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backenddb', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log('MongoDB connected'))
